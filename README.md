@@ -53,11 +53,8 @@ Here is an example input and its corresponding binary tree visualization:
 - **Input**: `1,2,3,null,null,4,5`
 - **Tree Structure**:
 
-  1
- / \
-2   3
-   / \
-  4   5
+![TreeVisualizer](https://github.com/ErShubham4u/LeetCodeTreeVisualizer/assets/100616631/4d97d02c-e06c-44ef-9de3-7155ea808ab5)
+
 
 
 ## License
