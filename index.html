@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .inputContainer {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 10rem;
+        }
+
+        textarea {
+            resize: none;
+            width: 100%;
+        }
+
+        .actionBtns {
+            width: 100%;
+            display: flex;
+            gap: 1rem;
+        }
+
+        button {
+            width: 5rem;
+            height: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="inputContainer">
+        <textarea class="input" rows="5"></textarea>
+        <div class="actionBtns">
+            <button class="applyBtn">Apply</button>
+            <button class="clearBtn">Clear</button>
+        </div>
+    </div>
+    <canvas></canvas>
+    <script type="module" src="./drawBinaryTree.js"></script>
+</body>
+</html>
